@@ -1,0 +1,48 @@
+@page :left {
+ margin-left: 1cm;
+ margin-right: 1cm;
+}
+@page :right {
+ margin-left: 1cm;
+ margin-right: 1cm;
+}
+@page :first {
+ margin-top: 1cm;
+}
+.botones-abajo {
+  display: none !important;
+}
+
+#footer  {
+  display: none !important;
+}
+
+#content h3 {
+	text-transform: uppercase;
+	font-weight: 400px;
+	font-size: 12px;
+}
+
+#content h2 {
+	text-transform: uppercase;
+	font-weight: 400px;
+	font-size: 12px;
+}
+
+#sidebar{
+	display:none;
+}
+
+.data{
+	display:none;
+}
+
+#inside2 .data{
+	display:inline;
+	font-size: 8px;
+}
+
+
+.fltrow{
+	display: none;
+}

@@ -1,0 +1,612 @@
+body {
+	background: url(../images/fondo.gif) fixed;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited, a:link {
+	color: #82000A;
+}
+
+#header {
+	background-color: #EE8021;
+	/*height: 18%;*/
+	border-bottom: 4px solid orange;
+	display: block;
+}
+
+#banner {
+	background-color: orange;
+}
+
+#content {
+	text-align: center;
+        margin-bottom: 50px;
+}
+
+#content-planilla {
+	margin: 20px auto auto 20px;
+	font-family: serif;
+	display: block;
+	overflow: hidden;
+}
+
+#content p {
+	font-size: 18px;
+}
+
+#content:after {
+}
+
+#footer {
+	width: 100%;
+	min-height: 3%;
+	background-color: white;
+	border-top: 2px solid orange;
+	position:fixed;
+	font-size: 11px;
+	font-family: sans-serif;
+	display: block;
+	left: 0px;
+	bottom: 0px;
+	float:left;
+}
+
+
+
+#sidebar {
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+#sidebar button {
+	background-color: rgba(255,200,50,0.5);
+	margin-left: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	width: 10%;
+	height: 50px;
+	font-size: 15px;
+	border: 1px solid;
+	border-radius:3px;
+}
+
+.boton-crear {
+	background-color: rgba(255,200,50,0.5);
+	margin-left: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 14px;
+	width: 50%;
+	height: 40px;
+	font-size: 15px;
+	border: 1px solid orange;
+	border-radius:3px;
+	margin: 0;
+}
+
+#sidebar button:hover {
+	background-color: rgba(255,138,50,0.5);
+}
+
+.data {
+	width: 60%;
+	border-radius: 25px;
+}
+
+
+.data th, .pasa th {
+	font-weight: bold;
+	color: black;
+}
+
+.data td, .pasa td {
+	color: #82000A;
+}
+
+.data, .data td, .data th, .pasa, .pasa td, .pasa th {
+	background-color: rgba(255,200,50,0.3);
+	margin: 0 auto;
+	border: 1px solid orange;
+	border-collapse: collapse;
+	text-align: center;
+	letter-spacing: 2px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.pasa {
+	display: inline-block;
+	width: 30%;
+	border-radius: 25px;
+	vertical-align: top;
+}
+
+#inside {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#inside input[type='text'], #inside input[type='password'] {
+	color: #82000A;
+	margin-left: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 14px;
+	width: 20%;
+	height: 30px;
+	font-size: 12px;
+	border: 1px solid orange;
+	border-radius:3px;
+	text-align: center;
+}
+
+#inside input[type='checkbox'] {
+	background: orange;
+}
+
+#inside input[type='submit'], #inside input[type='reset'] {
+	background-color: rgba(255,155,10,0.9);
+	margin-left: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 14px;
+	width: 15%;
+	height: 30px;
+	font-size: 15px;
+	border: 1px solid;
+	border-radius:3px;
+}
+
+#inside select {
+	background-color: white;
+	color: orange;
+	width: 20%;
+    height: 30px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+#inside .multiple {
+height: 100px;
+}
+
+#inside label {
+	margin-left: 10px;
+}
+
+label{
+	margin-bottom: 10px;
+	display: block;
+}
+
+#derecha {
+	float: right;
+	margin-top: 5px ;
+}
+
+#izquierda {
+	float:left;
+}
+
+#izquierda #logout {
+	border: 0 none;
+	background-color: #fff;
+	outline:none !important; 
+	color: orange;
+	font-size: 12px;
+	
+}
+
+#login {
+        text-align: center;
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        margin:auto;
+        color: grey;
+        border: 2px solid grey;
+        background: rgba(255,255,255,0.85);
+        border-radius: 3px;
+}
+
+#login input {
+        width: 80%;
+        height: 40px;
+        margin-top: 5px;
+        outline: none;
+        border: 1px solid rgba(0,0,0,0.5);
+        border-radius: 2px;
+        background-color: #f1f1f1;
+}
+
+
+.login-inputs input {
+        background: #f1f1f1  url(../images/login.png) no-repeat;
+        padding: 15px 15px 15px 30px;
+}
+
+#login input:focus, #login input:hover {
+        background-color: #fff;
+        border-color: orange;
+}
+
+#form-cc {
+        width: 400px;
+        height: 250px;
+        margin:auto;
+        display: inline;
+        color: grey;
+}
+
+#form-cc input {
+        height: 25px;
+}
+
+#form-em {
+}
+
+#usuario {
+        background-position: 5px -2px !important;
+}
+
+#pass {
+        background-position: 5px -52px !important;
+}
+
+form {
+}
+
+#two {
+	display: none;
+}
+
+#three {
+	display: none;
+}
+
+#four {
+	display: none;
+}
+
+
+#peque{
+    vertical-align: middle;
+}
+
+#peque input[type='submit'], #peque input[type='text']{
+    width: 150px;
+}
+
+#peque label {
+    color: #82000A;
+}
+
+#peque select{
+    width: 250px;
+}
+
+.informacion {
+	color: red;
+	font-size: 12px;
+}
+
+.informacion2 {
+	color: green;
+	font-size: 12px;
+}
+
+.boton-crear2 {
+	background-color: rgba(255,200,50,0.5);
+	margin-left: 20px;
+	color: #82000A;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	width: 10%;
+	height: 50px;
+	border: 1px solid white;
+	border-radius:3px;
+}
+
+/*DANI*/
+.tabla-dani, .tabla-dani td, .tabla-dani th {
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid orange;
+	border-collapse: collapse;
+	height: 25px;
+	padding: 2px auto;
+}
+
+
+#listado-jurados{
+	font-size: 20px;
+}
+
+#queso-puntaje {
+	display: inline-block;
+	min-height: 400px;
+	text-align: center;
+	width: 400px;
+}
+
+#queso-puntaje table, #queso-puntaje td, #queso-puntaje th {
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid orange;
+	border-collapse: collapse;
+	height: 25px;
+	margin: auto;
+}
+
+
+#jurado-puntaje {
+	display: inline-block;
+	text-align: center;
+	width: 400px;
+	min-height: 400px;
+	vertical-align: top;
+}
+
+#jurado-puntaje table, th, td{
+	text-align: center;
+	border: 1px solid orange;
+ 	margin: auto;
+}
+
+.central {
+	margin: auto;
+	text-align: center;
+	background-color: rgba(255,200,50,0.3);		
+	border: 1px solid orange;
+	width: 100%;
+	min-height: 350px;
+	padding-bottom: 20px;
+}
+
+#planilla-puntaje {
+	float: left;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+	width: 400px;
+	border: 3px solid grey ;
+	border-radius: 20px;
+	padding-top: 10px;
+}
+
+#planilla-puntaje table, th, td{
+	text-align: center;
+	border: 1px solid orange;
+ 	margin: auto;
+}
+
+#tcampos, #tpuntajes{
+	float:left;
+	background-color: rgba(255,255,255,0.3);
+	margin-bottom: 50px;	
+}
+
+#tpuntajes input {
+	outline: none;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 2px;
+	background-color: rgba(255,255,255,0.5);
+	font-size:12px;
+}
+
+#tpuntajes input[type='number'] {
+	width: 50px;
+}
+
+#content h2 {
+	color: #82000A;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400px;
+	font-size: 14px;
+	width: 30%;
+	font-size: 15px;
+	border: 1px solid orange;
+	border-radius:3px;
+	padding-top: 4px;
+	background-color: white;
+}
+
+#content h3 {
+	color: #82000A;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400px;
+	font-size: 15px;
+}
+
+#content h4 {
+	color: #82000A;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400px;
+	font-size: 18px;
+	text-align: left;
+}
+
+#content .boton-crear {
+	background-color: rgba(255,200,50,0.5);
+	margin-left: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 14px;
+	width: 50%;
+	height: 20px;
+	font-size: 12px;
+	border: 1px solid orange;
+	border-radius:3px;
+	margin: 0;
+}
+
+.botones-abajo {
+	clear: both;
+}
+
+.botones-abajo input, .botones-abajo button{
+	background-color: rgba(255,200,50,0.5);
+	margin: 20px 20px 50px 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	width: 12%;
+	height: 50px;
+	font-size: 13px;
+	border: 1px solid;
+	border-radius:3px;
+}
+
+#content h5 {
+	color: #82000A;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400px;
+	font-size: 14px;
+	width: 30%;
+	font-size: 15px;
+	border: 1px solid orange;
+	border-radius:3px;
+	padding-bottom: 10px;
+}
+
+.crear_planilla {
+	background-color: rgba(255,200,50,0.5);
+	margin-left: 20px;
+	color: #82000A;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 10px;
+	width: 60%;
+	height: 20px;
+	border: 1px solid orange;
+	border-radius:3px;
+	margin: 0;
+}
+
+
+#inside h3{
+	font-size: 12px;
+}
+
+.texto-gris{
+    color: #CCC;
+}
+
+#inside2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#inside2 input[type='text'], #inside2 input[type='password'] {
+	color: #82000A;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 14px;
+	width: inherit;
+	height: 30px;
+	font-size: 12px;
+	border: 1px solid orange;
+	border-radius:3px;
+	text-align: center;
+}
+
+#inside2 input[type='checkbox'] {
+	background: orange;
+}
+
+#inside2 input[type='submit'], #inside2 input[type='reset'] {
+	background-color: rgba(255,155,10,0.9);
+	margin-left: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 14px;
+	width: 15%;
+	height: 30px;
+	font-size: 15px;
+	border: 1px solid;
+	border-radius:3px;
+}
+
+#inside2 select {
+	background-color: white;
+	color: orange;
+	width: inherit;
+    height: 30px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#inside2 .multiple {
+height: 100px;
+}
+
+#inside2 label {
+	margin-left: 10px;
+}
+
+
+#inside .flt {
+	background-color: white;
+	color: orange;
+	width: inherit;
+    height: 30px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#cheese td{
+	width: 170px;
+
+}
+
+ #winners td{
+	width: 130px;
+ }
+
+ #tcampos p{
+	text-align: left;
+	font-weight: bold;
+ }
+
+ .tdesp td{
+  	height: 21px;
+  	border:none;
+  }
+
+  .tdesp2 td{
+  	height: 20px;
+  	border:none;
+  }
+
